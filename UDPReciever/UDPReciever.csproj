@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\Exit.png" />
+    <None Remove="images\File.png" />
+    <None Remove="images\Play.png" />
+    <None Remove="images\Setting.png" />
+    <None Remove="images\StopButton.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Toolbox" Version="0.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Exit.png" />
+    <Resource Include="images\File.png" />
+    <Resource Include="images\Play.png" />
+    <Resource Include="images\Setting.png" />
+    <Resource Include="images\StopButton.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ListViewData.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
