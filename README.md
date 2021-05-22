@@ -41,7 +41,6 @@ Quick Demo
 
 **After Packets recieved **
 ![Windows1PacketsRecieved](https://user-images.githubusercontent.com/47106767/119208756-2cbf5080-ba69-11eb-8152-6a0fc7dd0feb.png)
-![DataRecieved](https://user-images.githubusercontent.com/47106767/119208769-3a74d600-ba69-11eb-8fc8-4387de00467a.png)
 
 **Stopping Extraction (it will result in the address configuration menu being diabled)**
 ![DataExtractionConfirmationpng](https://user-images.githubusercontent.com/47106767/119208835-70b25580-ba69-11eb-806c-cc93b46a0d6f.png)
