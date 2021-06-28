@@ -48,7 +48,7 @@ namespace UDPReciever
 
             if (!File.Exists(FileName))
             {
-                // Create a file to write to   
+                // Create a file to write too   
                 try
                 {
                     using StreamWriter sw = File.CreateText(FileName);

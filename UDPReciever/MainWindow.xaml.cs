@@ -156,7 +156,7 @@ namespace UDPReciever
                     client.Close();
                     done = true;
                     updateButtonsAndLabels_StopExtraction();
-                    this.Title = "ATCBI_DE ";
+                    this.Title = "UDP Utility ";
                     break;
                 case MessageBoxResult.No:
                     break;

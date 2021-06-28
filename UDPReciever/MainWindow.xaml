@@ -52,8 +52,8 @@
             </MenuItem>
         </Menu>
         <Label x:Name="lbl_Time" HorizontalAlignment="Left" Margin="70,93,0,0" VerticalAlignment="Top" Width="160" Height="40" RenderTransformOrigin="0.5,0.5"  Foreground="White" FontSize="25"/>
-        <Label Content="UDP Rx Packets: " HorizontalAlignment="Left" Margin="70,153,0,0" VerticalAlignment="Top" Width="116" FontSize="15" Foreground="Yellow"/>
-        <Label x:Name="lbl_PacketCount" HorizontalAlignment="Left" Margin="186,153,0,0" VerticalAlignment="Top" Width="143" FontSize="15" Foreground="Yellow" Height="30" Content="0"/>
+        <Label Content="Packets Recieved: " HorizontalAlignment="Left" Margin="70,153,0,0" VerticalAlignment="Top" Width="126" FontSize="15" Foreground="Yellow"/>
+        <Label x:Name="lbl_PacketCount" HorizontalAlignment="Left" Margin="201,153,0,0" VerticalAlignment="Top" Width="146" FontSize="15" Foreground="Yellow" Height="30" Content="0"/>
         <Label x:Name="lbl_DataExtraction"  Content="Data Extration Started" HorizontalAlignment="Left" Margin="70,0,0,0" VerticalAlignment="Center" Width="160" FontSize="15" Foreground="Yellow" Visibility="Hidden"/>
         <Label x:Name="lbl_IPAddress"  Content="IP address:" HorizontalAlignment="Left" Margin="70,232,0,0" VerticalAlignment="Top" Width="102" FontSize="15" Foreground="Yellow" Height="27" Visibility="Hidden"/>
         <Label x:Name="lbl_PortNumber"  Content="PortNumber:" HorizontalAlignment="Left" Margin="70,264,0,0" VerticalAlignment="Top" Width="116" FontSize="15" Foreground="Yellow" Height="27" Visibility="Hidden"/>
